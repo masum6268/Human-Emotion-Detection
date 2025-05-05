@@ -5,17 +5,14 @@ from keras.preprocessing import image
 import cv2
 import numpy as np
 
-# face_classifier = cv2.CascadeClassifier(r'D:\movie\Emotion_Detection_CNN-main\haarcascade_frontalface_default.xml')
-# classifier = load_model(r'D:\movie\Emotion_Detection_CNN-main\model.h5')
-
-face_classifier = cv2.CascadeClassifier(r'C:\\Users\\Pankaj\\Downloads\\Compressed\\Project\\Human_Emotion_Detection-master\\haarcascade_frontalface_default.xml')
-classifier = load_model(r'C:\\Users\\Pankaj\\Downloads\\Compressed\\Project\\Human_Emotion_Detection-master\\model.h5')
+face_classifier = cv2.CascadeClassifier(r'C:\Users\Masum\Desktop\Ai\Human_Emotion_Detection\haarcascade_frontalface_default.xml')
+classifier = load_model(r'C:\Users\Masum\Desktop\Ai\Human_Emotion_Detection\model.h5')
 
 
 emotion_labels = ['Angry', 'Disgust', 'Fear', 'Happy', 'Neutral', 'Sad', 'Surprise']
 
-cap = cv2.VideoCapture(0)
-# cap = cv2.VideoCapture("sample2.mp4")
+#cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture("sample1.mp4")
 
 desired_width = 640
 desired_height = 480

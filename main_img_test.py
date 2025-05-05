@@ -9,7 +9,6 @@ classifier = load_model(r'C:\Users\Masum\Desktop\Ai\Human_Emotion_Detection\mode
 
 emotion_labels = ['Angry', 'Disgust', 'Fear', 'Happy', 'Neutral', 'Sad', 'Surprise']
 
-# image_path = 'rifat1.jpg'
 image_path = 'masum.jpeg'
 
 frame = cv2.imread(image_path)
