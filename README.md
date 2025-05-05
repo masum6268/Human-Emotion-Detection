@@ -45,17 +45,16 @@ It uses a **Deep Learning model** trained to recognize emotions like Angry, Happ
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/PankajMahanto/Human_Emotion_Detection_WAPPS
-   cd Human_Emotion_Detection_WAPPS
+   git clone https://github.com/masum6268/Human-Emotion-Detection
+   cd Human_Emotion_Detection
 
 ---
 
 # 📢 Notes:
 
 ✅ You should replace:
-- `[Pankaj Mahanta]`
-- `aryanpankaj78@gmail.com`
-- `PankajMahanto`
+-Masum Hossain
+-hassanmdshovon@gmail.com
 - Screenshot paths if you add real screenshots.
 
 ✅ This README is very **professional**, **formal**, and suitable for:
